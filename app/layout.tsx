@@ -7,8 +7,8 @@ import { CMS_NAME } from "@/lib/constants";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: `Next.js and ${CMS_NAME} Example`,
-  description: `This is a blog built with Next.js and ${CMS_NAME}.`,
+  title: `Valy's Vault`,
+  description: `Just a vault`,
 };
 
 export default function RootLayout({
@@ -22,7 +22,6 @@ export default function RootLayout({
         <Toolbar />
         <main className="min-h-screen">
           {children}
-          <Footer />
         </main>
       </body>
     </html>
